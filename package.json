@@ -1,0 +1,34 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install",
+    "install:deps": "playwright install-deps"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e"
+  ],
+  "author": "Ankit",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
